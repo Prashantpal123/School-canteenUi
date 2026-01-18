@@ -1,16 +1,30 @@
-# React + Vite
+# School Canteen – Frontend Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend prototype for a school canteen ordering system built as part of the Edzy.ai screening task.
 
-Currently, two official plugins are available:
+## Features
+- View available snacks with price and order count
+- Create students with auto-generated referral codes
+- Place snack orders for students
+- View student details including total spending and order history
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Mock JSON Server (for API simulation)
 
-## React Compiler
+## Setup Instructions
+1. Clone the repository
+```bash
+git clone https://github.com/Prashantpal123/School-canteenUi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+3. Run mock server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run server
+4 .Start the frontend
+npm run dev
