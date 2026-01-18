@@ -1,0 +1,366 @@
+{
+  "snacks": [
+    {
+      "id": "1",
+      "name": "Samosa",
+      "price": 10,
+      "ordersCount": 1,
+      "rating": 4.4,
+      "image": "/images/samosa.avif"
+    },
+    {
+      "id": "2",
+      "name": "Veg Sandwich",
+      "price": 20,
+      "ordersCount": 1,
+      "rating": 4.2,
+      "image": "/images/vegsandvich.avif"
+    },
+    {
+      "id": "3",
+      "name": "Fresh Juice",
+      "price": 15,
+      "ordersCount": 150,
+      "rating": 4.6,
+      "image": "/images/fresh-Juice.webp"
+    },
+    {
+      "id": "4",
+      "name": "Patties",
+      "price": 15,
+      "ordersCount": 110,
+      "rating": 4.3,
+      "image": "/images/Patties.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Bread Pakora",
+      "price": 25,
+      "ordersCount": 80,
+      "rating": 4.1,
+      "image": "/images/breadpakora.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Veg Burger",
+      "price": 30,
+      "ordersCount": 200,
+      "rating": 4.5,
+      "image": "/images/vegburger.jpg"
+    },
+    {
+      "id": "7",
+      "name": "French Fries",
+      "price": 35,
+      "ordersCount": 170,
+      "rating": 4.7,
+      "image": "/images/french fries.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Cold Coffee",
+      "price": 25,
+      "ordersCount": 140,
+      "rating": 4.4,
+      "image": "/images/coldCoffee.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Tea",
+      "price": 10,
+      "ordersCount": 300,
+      "rating": 4.8,
+      "image": "/images/tea.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Veg Momos",
+      "price": 40,
+      "ordersCount": 220,
+      "rating": 4.6,
+      "image": "/images/momos.jpg"
+    }
+  ],
+  "students": [
+    {
+      "id": "9610",
+      "name": "Prashant Pal",
+      "referralCode": "REF510",
+      "totalSpent": 0,
+      "spent": 80,
+      "totalOrders": 4
+    },
+    {
+      "id": "6ab9",
+      "name": "prashant pal",
+      "studentId": "studen1",
+      "course": "Bca",
+      "year": "1st",
+      "email": "prashantpal123dev@gmail.com",
+      "phone": "+919389888747",
+      "referralCode": "REF1644",
+      "spent": 10,
+      "totalOrders": 0,
+      "isActive": true,
+      "accountCreatedDate": "2026-01-17T08:47:06.504Z"
+    },
+    {
+      "id": "9af5",
+      "name": "vimal",
+      "email": "",
+      "phone": "",
+      "referralCode": "REF1059",
+      "spent": 220,
+      "totalOrders": 3,
+      "isActive": true,
+      "accountCreatedDate": "2026-01-18T00:14:29.069Z"
+    },
+    {
+      "id": "e8b0",
+      "name": "Kittu",
+      "referralCode": "REF5476",
+      "spent": 100,
+      "totalOrders": 1,
+      "isActive": true,
+      "accountCreatedDate": "2026-01-18T02:10:01.527Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5e65",
+      "studentId": "1768640156820",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 6
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:01:23.580Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "f51b",
+      "studentId": "6ab9",
+      "items": [
+        {
+          "snackId": "10",
+          "quantity": 1
+        },
+        {
+          "snackId": "9",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:04:58.837Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "c2b7",
+      "studentId": "9610",
+      "items": [
+        {
+          "snackId": "6",
+          "quantity": 7
+        },
+        {
+          "snackId": "4",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:06:37.023Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "416b",
+      "studentId": "1768640156820",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:14:50.759Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "7788",
+      "studentId": "1768640156820",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:18:35.089Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "718e",
+      "studentId": "1768640156820",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 6
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:21:21.388Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "076e",
+      "studentId": "6ab9",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:22:59.774Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "873d",
+      "studentId": "9610",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 1
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:25:07.423Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "75eb",
+      "studentId": "9af5",
+      "items": [
+        {
+          "snackId": "1",
+          "quantity": 4
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T00:25:37.322Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "a03d",
+      "studentId": "9af5",
+      "items": [
+        {
+          "snackId": "1",
+          "snackName": "Samosa",
+          "quantity": 14,
+          "price": 10,
+          "subtotal": 140
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T01:12:24.692Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "af2d",
+      "studentId": "e8b0",
+      "items": [
+        {
+          "snackId": "2",
+          "snackName": "Veg Sandwich",
+          "quantity": 5,
+          "price": 20,
+          "subtotal": 100
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T02:11:17.396Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "acba",
+      "studentId": "9af5",
+      "items": [
+        {
+          "snackId": "1",
+          "snackName": "Samosa",
+          "quantity": 4,
+          "price": 10,
+          "subtotal": 40
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T02:34:25.795Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "f638",
+      "studentId": "9610",
+      "items": [
+        {
+          "snackId": "1",
+          "snackName": "Samosa",
+          "quantity": 4,
+          "price": 10,
+          "subtotal": 40
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T02:37:59.153Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "606c",
+      "studentId": "9610",
+      "items": [
+        {
+          "snackId": "1",
+          "snackName": "Samosa",
+          "quantity": 1,
+          "price": 10,
+          "subtotal": 10
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T03:20:36.726Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    },
+    {
+      "id": "d58f",
+      "studentId": "9610",
+      "items": [
+        {
+          "snackId": "2",
+          "snackName": "Veg Sandwich",
+          "quantity": 1,
+          "price": 20,
+          "subtotal": 20
+        }
+      ],
+      "deliveryType": "pickup",
+      "orderDate": "2026-01-18T03:43:53.208Z",
+      "status": "pending",
+      "paymentStatus": "unpaid"
+    }
+  ]
+}
